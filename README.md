@@ -11,7 +11,8 @@ git clone https://github.com/3razil/simple-local-share-php.git
 
 Coloque os arquivos que deseja compartilhar dentro da pasta  _share_ e inicie o servidor. 
 
-No Windows é só dar um duplo clique no arquivo **run.bat**!
+No \*Windows é só dar um duplo clique no arquivo **run.bat**! 
+
 
 Para Linux:
 
@@ -24,3 +25,5 @@ Depois é só passar o endereço para as outras pessoas da sua rede.
 ![Simple Local Share](demo.gif)
 
 > [Wall-e](https://dribbble.com/shots/2357921-Wall-e) por [Rogie King](https://dribbble.com/rogie)
+
+\**verifique se tem permissão no seu firewall*
