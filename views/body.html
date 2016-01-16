@@ -1,0 +1,29 @@
+  <main role="main" id="wrapper">
+    <h1>Simple<span>Share</span></h1>
+
+    <input type="search" id="search" placeholder="Pesquisar">
+
+    <p id="not-found">
+      Nenhum arquivo encontrado. Tente novamente.
+    </p>
+
+    <table id="files">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Tamanho</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php foreach($vars['share'] as $f){?>
+          <tr class="file-item" data-name="<?php echo $f['name']?>">
+            <td><?php echo $f['name']?></td>
+            <td><?php echo $f['size']?></td>
+            <td><a class="download" href="?d=<?php echo $f['name']?>">Download</a></td>
+          </tr>
+        <?php } ?>
+      </tbody>
+    </table>
+
+  </main>
