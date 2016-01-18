@@ -1,14 +1,8 @@
 <?php
 /** 
  * MimesTypes 
- * @copyright	NEOS PHP Framework - http://neosphp.org
- * @license		http://neosphp.org/license 
- * @version		CAN : B4BC
- * @package		Neos\Config
- 
  * THIS CODE WAS COPIED OF CODEIGNITER FRAMEWORK (http://www.codeigniter.com) >>>
- * "Don't reinvent the wheel is the methodology!" Ou apenas: "Não reinvente a roda!"
- 
+ * "Apenas: "Não reinvente a roda!"
 */
 
 $_mimes = 
@@ -16,16 +10,16 @@ array(
 	'hqx'	=>	'application/mac-binhex40',
 	'cpt'	=>	'application/mac-compactpro',
 	'csv'	=>	array(
-						'text/x-comma-separated-values', 
-						'text/comma-separated-values', 
-						'application/octet-stream', 
-						'application/vnd.ms-excel', 
-						'text/x-csv', 
-						'text/csv', 
-						'application/csv', 
-						'application/excel', 
-						'application/vnd.msexcel'
-					),
+				'text/x-comma-separated-values', 
+				'text/comma-separated-values', 
+				'application/octet-stream', 
+				'application/vnd.ms-excel', 
+				'text/x-csv', 
+				'text/csv', 
+				'application/csv', 
+				'application/excel', 
+				'application/vnd.msexcel'
+			),
 	'bin'	=>	'application/macbinary',
 	'dms'	=>	'application/octet-stream',
 	'lha'	=>	'application/octet-stream',
@@ -66,7 +60,7 @@ array(
 	'tgz'	=>	array('application/x-tar', 'application/x-gzip-compressed'),
 	'xhtml'	=>	'application/xhtml+xml',
 	'xht'	=>	'application/xhtml+xml',
-	'zip'	=>  array('application/x-zip', 'application/zip', 'application/x-zip-compressed'),
+	'zip'	=>  	array('application/x-zip', 'application/zip', 'application/x-zip-compressed'),
 	'mid'	=>	'audio/midi',
 	'midi'	=>	'audio/midi',
 	'mpga'	=>	'audio/mpeg',
