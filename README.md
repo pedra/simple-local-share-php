@@ -9,7 +9,7 @@ git clone https://github.com/3razil/simple-local-share-php.git
 
 ## Compartilhando
 
-Coloque os arquivos que deseja compartilhar dentro da pasta  _share_ e inicie o servidor. 
+Coloque os arquivos que deseja compartilhar dentro da pasta  **share** e inicie o servidor. 
 
 No Windows é só dar um duplo clique no arquivo \***run.bat**! 
 
