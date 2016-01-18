@@ -1,4 +1,4 @@
-<?php //exit('<pre>'.print_r($_SERVER['REQUEST_URI'], true).'</pre>');
+<?php
 
 // Configura algumas constantes...
 define('ROOT', __DIR__.'/');
