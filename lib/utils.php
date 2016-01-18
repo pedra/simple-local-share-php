@@ -1,6 +1,6 @@
 <?php
 
-//Download de arquivo em modo PHAR (interno)
+//Download files...
 function download($reqst = '')
 {
     //checando a existencia do arquivo solicitado
